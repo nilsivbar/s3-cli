@@ -19,7 +19,7 @@ parser.add_argument("-dvb", help="disable versioning of bucket", action="store_t
 parser.add_argument("-lsb", help="list versioned objects in bucket", action="store_true")
 parser.add_argument("-ub", help="upload file to bucket", action="store_true")
 parser.add_argument("-do", help="delete object", action="store_true")
-parser.add_argument("-vi", help="version id(specify all to del all version)")
+parser.add_argument("-vi", help="version id")
 parser.add_argument("-fname", help="filename name")
 parser.add_argument("-name", help="bucket name")
 
